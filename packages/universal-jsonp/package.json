@@ -1,0 +1,45 @@
+{
+  "name": "universal-jsonp",
+  "version": "0.7.0",
+  "description": "A universal JSONP utilities.",
+  "license": "BSD-3-Clause",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "rax-scripts start --type 'component' -p 8000",
+    "build": "rax-scripts build",
+    "test": "jest",
+    "lint": "eslint --ext .js --ext .jsx ./src"
+  },
+  "keywords": [
+    "universal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raxjs/universal-jsonp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alibaba/rax/issues"
+  },
+  "homepage": "https://github.com/alibaba/rax#readme",
+  "dependencies": {
+    "universal-env": "^0.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "^24.7.1",
+    "debug": "^4.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1",
+    "jest-localstorage-mock": "^2.3.0",
+    "pre-commit": "^1.2.2",
+    "rax-scripts": "^1.2.0"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
