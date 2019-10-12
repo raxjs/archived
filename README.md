@@ -1,2 +1,2 @@
-# universal-api-archived
-This repository serves as an archive of the rax 0.x universal API.
+# Archived
+This repository is used to archive packages that have stopped maintenance.
